@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[foobar]]></title>
+  <subtitle><![CDATA[Pseudo random stuff and thoughts]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://jvillasante.github.io/"/>
+  <updated>2014-09-29T23:18:22.189Z</updated>
+  <id>http://jvillasante.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Julio C. Villasante]]></name>
+    <email><![CDATA[jvillasantegomez@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[my vim setup]]></title>
+    <link href="http://jvillasante.github.io/2014/09/28/my-vim-setup/"/>
+    <id>http://jvillasante.github.io/2014/09/28/my-vim-setup/</id>
+    <published>2014-09-29T02:23:31.000Z</published>
+    <updated>2014-09-29T22:51:23.000Z</updated>
+    <content type="html"><![CDATA[<p>Lately a friend saw me working on VIM and he was really impressed. In this post I will blather a little about VIM and then I will share with you my .vimrc.</p>
+<p>The thing about VIM is that when you learn the basics and get used to it, you can’t go back, really! I started working with VIM about 3 years ago and in that time I use it for everything: programming, mail writing, configurations… I mean, anything that is text I edit it with VIM. Sometimes I have to work on dreaded technologies (I’m looking at you visual studio) and I always find myself complaining about how hard is to edit things. Some people say that VIM is a difficult text editor, but really, you can get the basics in 30 minutes and then it is just a matter of practice. Here’s a picture about the dreaded VIM learning curve, I don’t know the guy who did this but he was up to something.</p>
+<p><img src="/images/vim_learning.jpg" alt="vim learning curve"></p>
+<a id="more"></a>
+
+<p>Now, once you get the basics you will know that there is no substitute for VIM as an editor, I mean, being all day trying to reach CTRL, ALT or META is just crazy and you will thank VIM that you don’t have to leave the home row for most editing, but about VIM and editing there are a lot of posts out there that you can research for yourself, the real power of VIM, at least for me, is about not to having to switch contexts.</p>
+<p>Let me explain, let’s face it, any developer is lucky enough to work all day on only one technology, for any interesting project you would need to write some C/C++ code, some java code, html5/css, javascript, bash scripts, xml, configurations of all sorts, and if you, like me, has a manager that don’t know anything about programming, you probably would have to write those web services on .NET, just because managment thinks that if it is written with microsoft technology then it would be enough, of course, you as a developer don’t have the time to explain to some guy that wouldn’t really understand how wrong he is, so, you just deliver and at the end of the day you have to write a lot of files in a lot of technologies. Now, if you are an IDE junky you would be firing eclipse for java, whatever you use for C++, you heard that IntelliJ has great javascript support so use that, and because you are a great developer who stays away from microsoft technology and work on linux or mac, you has to launch a virtual machine just to use visual studio for those stupid web services that managment wants.</p>
+<p>Here VIM to the rescue, by now you know that you can write all that just with VIM, without switching contexts and, impressed as you are, you get even nice auto complete support right on the editor. So, at the end of the day you just have to learn one editor and do all work on it, because in VIM land, for everything you need there’s a plugin.</p>
+<p>There are a lot more reasons to learn VIM and make it your editor of choice, for instance, VIM runs everwhere and it runs everywhere by default. If you have to develop an embedded system on ARM you’ll find that it comes with VIM. If you have to configure a linux server you’ll find that it comes with VIM. If you need to edit some file on a remote machine you can use VIM over ssh, and so on. VIM is everywhere and investing time learning it now will pay a lot in the future. But still for me, as a developer, the best gain is when you don’t have to be switching contexts during development.</p>
+<p>Lately I have begun to study Android, and of course, in VIM there’s a <a href="http://eclim.org/" target="_blank" rel="external">plugin</a> for that. Sadly I ended using Android Studio because eclim is not on the latests Android SDK (of course, once I get the basics on Android I will come back to VIM and the command line for development), but happily enough, Android Studio has <a href="http://plugins.jetbrains.com/plugin/164" target="_blank" rel="external">IdeaVim</a> that despite being far from the real thing, at least let me edit text the way i like. So, as you can se, VIM is truly everywhere. So, if you’re reading this, stop now, go <a href="http://www.vim.org/" target="_blank" rel="external">install</a> vim, spend those 30 minutes on vimtutor, try to get your hands dirty on <a href="https://pragprog.com/book/dnvim/practical-vim" target="_blank" rel="external">Practical Vim: Edit Text at the Speed of Thought</a> and you’ll thank yourself on the long run for that.</p>
+<p><a href="https://gist.github.com/jvillasante/59df6498d9feff6eb69b" target="_blank" rel="external">Here’s my .vimrc file</a>, this file is not my own, I been working on it for the last 2 years with pieces I found on the internet. You’ll find that I use a lot of plugins and configurations, but don’t let that scares you, the nice thing about VIM is that you can make it your own.</p>
+<p>Thank you.</p>
+<a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#106;&#x76;&#105;&#x6c;&#x6c;&#97;&#115;&#x61;&#110;&#x74;&#x65;&#103;&#x6f;&#x6d;&#x65;&#122;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#106;&#x76;&#105;&#x6c;&#x6c;&#97;&#115;&#x61;&#110;&#x74;&#x65;&#103;&#x6f;&#x6d;&#x65;&#122;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Lately a friend saw me working on VIM and he was really impressed. In this post I will blather a little about VIM and then I will share with you my .vimrc.</p>
+<p>The thing about VIM is that when you learn the basics and get used to it, you can’t go back, really! I started working with VIM about 3 years ago and in that time I use it for everything: programming, mail writing, configurations… I mean, anything that is text I edit it with VIM. Sometimes I have to work on dreaded technologies (I’m looking at you visual studio) and I always find myself complaining about how hard is to edit things. Some people say that VIM is a difficult text editor, but really, you can get the basics in 30 minutes and then it is just a matter of practice. Here’s a picture about the dreaded VIM learning curve, I don’t know the guy who did this but he was up to something.</p>
+<p><img src="/images/vim_learning.jpg" alt="vim learning curve"></p>
+]]>
+    
+    </summary>
+    
+      <category term="productivity" scheme="http://jvillasante.github.io/tags/productivity/"/>
+    
+      <category term="editors" scheme="http://jvillasante.github.io/tags/editors/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Multiplexed IO]]></title>
+    <link href="http://jvillasante.github.io/2014/09/28/multiplexed-IO/"/>
+    <id>http://jvillasante.github.io/2014/09/28/multiplexed-IO/</id>
+    <published>2014-09-28T21:09:02.000Z</published>
+    <updated>2014-09-29T22:51:29.000Z</updated>
+    <content type="html"><![CDATA[<p>Applications often need to block on more than one file descriptor. Whithout the aid of threads, a single process can’t even dream on blocking on more than one file descriptor at the same time. The thing is that working with multiple file descriptors is fine, so long as they are always ready to be read from or written to. But as soon as one file descriptor that is not yet ready is encountered - say, if a read() system call is issued, and there is not yet any data — the process will block, no longer able to service the other file descriptors. And this, we all know, can be a pain in the ass sometimes.</p>
+<p>Here’s a real world example. Imagine blocking on a file descriptor related to interprocess communication while stdin has data pending. The application won’t know that keyboard input is pending until the blocked IPC file descriptor ultimately returns data - but what if the blocked operation never returns?</p>
+<a id="more"></a>
+
+<p>There are more than one solution to that problem, but ideally what we would like to do is that the program could sleep, freeing the processor for other tasks to be woken up only when one or more file descriptors were ready to perform I/O. An so, multiplexed I/O was born. You can go and research the subject, but in escence what multiplexed I/O does is:</p>
+<ol>
+<li>Multiplexed I/O: Tell me when any of these file descriptors become ready fo I/O.</li>
+<li>Nothing ready? Sleep until one or more file descriptors are ready.</li>
+<li>Woken up! What is ready?</li>
+<li>Handle all file descriptors ready for I/O, without blocking.</li>
+<li>Go back to step 1.</li>
+</ol>
+<p>Linux systems provides three multiplexed I/O solutions: the <em>select</em>, <em>poll</em>, and <em>epoll</em> interfaces. In this post I will only show you a piece of code I have written for work that uses <em>select</em>, but keep in mind that <em>poll</em> and it’s cousin <em>epoll</em> are much more featuring solutions.</p>
+<p>At work I’m doing a project on access control with fingerprint identification. The requirement is simple. A user puts her fingerprint on the sensor and then she is prompted to press on one of two buttons for entrance or departure. The catch is that the user has only a relatively small time window to press the required button (5 seconds per requirement), otherwise the system goes to identification mode waiting for another user to place her finger.</p>
+<p>As per the requirement of user spec, we have to wait 5 seconds for the user to press the required button and then go on with things, but we can’t block the thread while on waiting. One solution, of course, is launching a new thread for the button pressing functionality, but, at least in this case that is overkill. Multiplexed IO to the rescue…</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">bool</span> isButtonPressed()</div><div class="line">{</div><div class="line">    <span class="keyword">int</span> fd;</div><div class="line">    <span class="keyword">struct</span> input_event event;</div><div class="line">    ssize_t bytesRead;</div><div class="line"></div><div class="line">    <span class="keyword">int</span> ret;</div><div class="line">    <span class="keyword">struct</span> timeval tv;</div><div class="line">    fd_set readfds;</div><div class="line"></div><div class="line">    <span class="keyword">int</span> buttonType = <span class="number">0</span>;</div><div class="line"></div><div class="line">    fd = open(<span class="string">"/dev/input/event0"</span>, O_RDONLY);</div><div class="line">    check(fd != -<span class="number">1</span>, <span class="string">"Error opening /dev/input/event0 for reading"</span>);</div><div class="line">    debug(<span class="string">"/dev/input/event0 oppened for reading"</span>);</div><div class="line"></div><div class="line">    <span class="comment">/* Wait on fd for input */</span></div><div class="line">    FD_ZERO(&amp;readfds);</div><div class="line">    FD_SET(fd, &amp;readfds);</div><div class="line"></div><div class="line">    <span class="comment">/* Wait up to five seconds */</span></div><div class="line">    tv.tv_sec = <span class="number">5</span>;</div><div class="line">    tv.tv_usec = <span class="number">0</span>;</div><div class="line"></div><div class="line">repeat:</div><div class="line">    ret = select(fd + <span class="number">1</span>, &amp;readfds, NULL, NULL, &amp;tv);</div><div class="line">    <span class="keyword">if</span> (ret == -<span class="number">1</span>) {</div><div class="line">        log_error(<span class="string">"select call on /dev/input/event0: an error ocurred"</span>);</div><div class="line">        <span class="keyword">goto</span> error;</div><div class="line">    } <span class="keyword">else</span> <span class="keyword">if</span> (!ret) {</div><div class="line">        debug(<span class="string">"select call on /dev/input/event0: TIMEOUT"</span>);</div><div class="line">        <span class="keyword">if</span> (fd) { <span class="keyword">if</span> (close(fd) != <span class="number">0</span>) { log_error(<span class="string">"Error closing /dev/input/event0"</span>); } }</div><div class="line">        debug(<span class="string">"/dev/input/event0 closed because of timeout"</span>);</div><div class="line">        <span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="comment">/* File descriptor is now ready */</span></div><div class="line">    <span class="keyword">if</span> (FD_ISSET(fd, &amp;readfds)) {</div><div class="line">        bytesRead = read(fd, &amp;event, <span class="keyword">sizeof</span>(<span class="keyword">struct</span> input_event));</div><div class="line">        check(bytesRead != -<span class="number">1</span>, <span class="string">"Read input error: call to read returned -1."</span>);</div><div class="line">        check(bytesRead == <span class="keyword">sizeof</span>(<span class="keyword">struct</span> input_event), </div><div class="line">            <span class="string">"Read input error: bytes read is not an input_event."</span>);</div><div class="line"></div><div class="line">        <span class="keyword">switch</span> (event.code) {</div><div class="line">        <span class="keyword">case</span> BTN_5:</div><div class="line">            debug(<span class="string">"IN Button Pressed"</span>);</div><div class="line">            buttonType = <span class="number">5</span>;</div><div class="line">            <span class="keyword">break</span>;</div><div class="line">        <span class="keyword">case</span> BTN_6:</div><div class="line">            debug(<span class="string">"OUT Button Pressed"</span>);</div><div class="line">            buttonType = <span class="number">6</span>;</div><div class="line">            <span class="keyword">break</span>;</div><div class="line">        <span class="keyword">default</span>:</div><div class="line">            debug(<span class="string">"UNKNOWN Button Pressed"</span>);</div><div class="line">            <span class="keyword">goto</span> repeat;</div><div class="line">        }</div><div class="line">    }</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (buttonType == <span class="number">0</span>) {</div><div class="line">        <span class="keyword">if</span> (fd) { <span class="keyword">if</span> (close(fd) != <span class="number">0</span>) { log_error(<span class="string">"Error closing /dev/input/event0"</span>); } }</div><div class="line">        debug(<span class="string">"/dev/input/event0 closed because UNKNOWN button was pressed"</span>);</div><div class="line">        <span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">    } <span class="keyword">else</span> {</div><div class="line">        <span class="keyword">if</span> (fd) { <span class="keyword">if</span> (close(fd) != <span class="number">0</span>) { log_error(<span class="string">"Error closing /dev/input/event0"</span>); } }</div><div class="line">        debug(<span class="string">"/dev/input/event0 closed"</span>);</div><div class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</div><div class="line">    }</div><div class="line"></div><div class="line">error:</div><div class="line">    <span class="keyword">if</span> (fd) { <span class="keyword">if</span> (close(fd) != <span class="number">0</span>) { log_error(<span class="string">"Error closing /dev/input/event0"</span>); } }</div><div class="line">    debug(<span class="string">"/dev/input/event0 closed in error handler"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">}</div></pre></td></tr></table></figure>
+
+<p>And there you have it, we were able to wait on IO without blocking. It is worth noting that this solution only works in Linux, because current versions of Linux modify the timeout automatically with the time remaining. Thus, if the timeout was set for 5 seconds, and 3 seconds elapsed before a file descriptor became ready, tv.tv_sec would containt 2 upon the call’s return. </p>
+<p>And just like that, Multiplexed IO saves the day and we are now ready for another beer…</p>
+<p>Thank you.</p>
+<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#106;&#118;&#105;&#x6c;&#x6c;&#x61;&#x73;&#97;&#110;&#116;&#101;&#103;&#x6f;&#x6d;&#101;&#x7a;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#106;&#118;&#105;&#x6c;&#x6c;&#x61;&#x73;&#97;&#110;&#116;&#101;&#103;&#x6f;&#x6d;&#101;&#x7a;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Applications often need to block on more than one file descriptor. Whithout the aid of threads, a single process can’t even dream on blocking on more than one file descriptor at the same time. The thing is that working with multiple file descriptors is fine, so long as they are always ready to be read from or written to. But as soon as one file descriptor that is not yet ready is encountered - say, if a read() system call is issued, and there is not yet any data — the process will block, no longer able to service the other file descriptors. And this, we all know, can be a pain in the ass sometimes.</p>
+<p>Here’s a real world example. Imagine blocking on a file descriptor related to interprocess communication while stdin has data pending. The application won’t know that keyboard input is pending until the blocked IPC file descriptor ultimately returns data - but what if the blocked operation never returns?</p>
+]]>
+    
+    </summary>
+    
+      <category term="programming" scheme="http://jvillasante.github.io/tags/programming/"/>
+    
+      <category term="c programming" scheme="http://jvillasante.github.io/tags/c-programming/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://jvillasante.github.io/2014/09/28/hello-world/"/>
+    <id>http://jvillasante.github.io/2014/09/28/hello-world/</id>
+    <published>2014-09-28T20:15:00.000Z</published>
+    <updated>2014-09-29T22:51:19.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello World Again…</p>
+<p>I’m starting a new blog with the incredible Hexo engine. Hexo is a static site generator powered by nodejs and that can be deployed to github pages. I’ve imported some of my old posts from <a href="http://jc-blatherings.blogspot.com" target="_blank" rel="external">jc-blatherings</a> but since the import is a little hacky I have deleted the old posts, so if you want to read what I have written in the past, by all means you can go to <a href="http://jc-blatherings.blogspot.com" target="_blank" rel="external">jc-blatherings</a>.</p>
+<p>I’m starting a new live on Chile and so far it has been awful. This is not a country for developers trying to work hard, or even for those who want to work on their dreams and make them happen, so I’m expecting to have a lot of time to write here some of my thoughts about development, the universe, and everything else…</p>
+<a id="more"></a>
+
+<h2 id="About_me">About me</h2>
+<p>I’m a regular guy born on Havana, Cuba. I like to think that I’m a programmer but every day I found thinking about myself as a coder whith some background on CS. I love to code on anything but microsoft technology. You can find me in <a href="https://www.linkedin.com/profile/view?id=73217458&amp;trk" target="_blank" rel="external">linkedin</a>, <a href="https://plus.google.com/u/0/115535547770142859056/posts" target="_blank" rel="external">googleplus</a>, and I even hang around sometimes on <a href="https://www.facebook.com/juliocesar.villasante.9" target="_blank" rel="external">facebook</a>. </p>
+<p>Just drop me a line to get connected and if you have a job offer for me I’m always looking for new things to try out.</p>
+<p>Thank you.</p>
+<a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x6a;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#x65;&#x67;&#x6f;&#109;&#x65;&#x7a;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x6a;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#x65;&#x67;&#x6f;&#109;&#x65;&#x7a;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hello World Again…</p>
+<p>I’m starting a new blog with the incredible Hexo engine. Hexo is a static site generator powered by nodejs and that can be deployed to github pages. I’ve imported some of my old posts from <a href="http://jc-blatherings.blogspot.com" target="_blank" rel="external">jc-blatherings</a> but since the import is a little hacky I have deleted the old posts, so if you want to read what I have written in the past, by all means you can go to <a href="http://jc-blatherings.blogspot.com" target="_blank" rel="external">jc-blatherings</a>.</p>
+<p>I’m starting a new live on Chile and so far it has been awful. This is not a country for developers trying to work hard, or even for those who want to work on their dreams and make them happen, so I’m expecting to have a lot of time to write here some of my thoughts about development, the universe, and everything else…</p>
+]]>
+    
+    </summary>
+    
+      <category term="others" scheme="http://jvillasante.github.io/tags/others/"/>
+    
+  </entry>
+  
+</feed>
