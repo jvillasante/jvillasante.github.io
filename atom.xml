@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Pseudo random stuff and thoughts]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://jvillasante.github.io/"/>
-  <updated>2014-09-29T23:18:22.189Z</updated>
+  <updated>2014-11-24T23:58:49.087Z</updated>
   <id>http://jvillasante.github.io/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[the only thing about time]]></title>
+    <link href="http://jvillasante.github.io/2014/11/24/the-only-thing-about-time/"/>
+    <id>http://jvillasante.github.io/2014/11/24/the-only-thing-about-time/</id>
+    <published>2014-11-24T23:55:54.000Z</published>
+    <updated>2014-11-24T23:58:16.000Z</updated>
+    <content type="html"><![CDATA[<p>Here’s the only thing developers should know about time. I’ve learned it the hard way developing an embedded system.<br>Always use UTC, for everything. Only use localtime when showing time to the user.</p>
+<p>And that’s it, seriously!</p>
+<p>Thank you.</p>
+<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x6a;&#118;&#105;&#108;&#108;&#x61;&#x73;&#x61;&#x6e;&#x74;&#101;&#x67;&#x6f;&#x6d;&#x65;&#122;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6a;&#118;&#105;&#108;&#108;&#x61;&#x73;&#x61;&#x6e;&#x74;&#101;&#x67;&#x6f;&#x6d;&#x65;&#122;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Here’s the only thing developers should know about time. I’ve learned it the hard way developing an embedded system.<br>Always use UTC, f]]>
+    </summary>
+    
+      <category term="programming" scheme="http://jvillasante.github.io/tags/programming/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[my vim setup]]></title>
@@ -32,7 +51,7 @@
 <p>Lately I have begun to study Android, and of course, in VIM there’s a <a href="http://eclim.org/" target="_blank" rel="external">plugin</a> for that. Sadly I ended using Android Studio because eclim is not on the latests Android SDK (of course, once I get the basics on Android I will come back to VIM and the command line for development), but happily enough, Android Studio has <a href="http://plugins.jetbrains.com/plugin/164" target="_blank" rel="external">IdeaVim</a> that despite being far from the real thing, at least let me edit text the way i like. So, as you can se, VIM is truly everywhere. So, if you’re reading this, stop now, go <a href="http://www.vim.org/" target="_blank" rel="external">install</a> vim, spend those 30 minutes on vimtutor, try to get your hands dirty on <a href="https://pragprog.com/book/dnvim/practical-vim" target="_blank" rel="external">Practical Vim: Edit Text at the Speed of Thought</a> and you’ll thank yourself on the long run for that.</p>
 <p><a href="https://gist.github.com/jvillasante/59df6498d9feff6eb69b" target="_blank" rel="external">Here’s my .vimrc file</a>, this file is not my own, I been working on it for the last 2 years with pieces I found on the internet. You’ll find that I use a lot of plugins and configurations, but don’t let that scares you, the nice thing about VIM is that you can make it your own.</p>
 <p>Thank you.</p>
-<a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#106;&#x76;&#105;&#x6c;&#x6c;&#97;&#115;&#x61;&#110;&#x74;&#x65;&#103;&#x6f;&#x6d;&#x65;&#122;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">&#106;&#x76;&#105;&#x6c;&#x6c;&#97;&#115;&#x61;&#110;&#x74;&#x65;&#103;&#x6f;&#x6d;&#x65;&#122;&#x40;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;</a>
+<a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#106;&#118;&#105;&#108;&#108;&#x61;&#115;&#97;&#x6e;&#116;&#x65;&#x67;&#111;&#x6d;&#x65;&#122;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#106;&#118;&#105;&#108;&#108;&#x61;&#115;&#97;&#x6e;&#116;&#x65;&#x67;&#111;&#x6d;&#x65;&#122;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Lately a friend saw me working on VIM and he was really impressed. In this post I will blather a little about VIM and then I will share with you my .vimrc.</p>
@@ -74,7 +93,7 @@
 <p>And there you have it, we were able to wait on IO without blocking. It is worth noting that this solution only works in Linux, because current versions of Linux modify the timeout automatically with the time remaining. Thus, if the timeout was set for 5 seconds, and 3 seconds elapsed before a file descriptor became ready, tv.tv_sec would containt 2 upon the call’s return. </p>
 <p>And just like that, Multiplexed IO saves the day and we are now ready for another beer…</p>
 <p>Thank you.</p>
-<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#106;&#118;&#105;&#x6c;&#x6c;&#x61;&#x73;&#97;&#110;&#116;&#101;&#103;&#x6f;&#x6d;&#101;&#x7a;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#106;&#118;&#105;&#x6c;&#x6c;&#x61;&#x73;&#97;&#110;&#116;&#101;&#103;&#x6f;&#x6d;&#101;&#x7a;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a>
+<a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#106;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#101;&#x67;&#x6f;&#x6d;&#101;&#x7a;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#106;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#101;&#x67;&#x6f;&#x6d;&#101;&#x7a;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;</a>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Applications often need to block on more than one file descriptor. Whithout the aid of threads, a single process can’t even dream on blocking on more than one file descriptor at the same time. The thing is that working with multiple file descriptors is fine, so long as they are always ready to be read from or written to. But as soon as one file descriptor that is not yet ready is encountered - say, if a read() system call is issued, and there is not yet any data — the process will block, no longer able to service the other file descriptors. And this, we all know, can be a pain in the ass sometimes.</p>
@@ -104,7 +123,7 @@
 <p>I’m a regular guy born on Havana, Cuba. I like to think that I’m a programmer but every day I found thinking about myself as a coder whith some background on CS. I love to code on anything but microsoft technology. You can find me in <a href="https://www.linkedin.com/profile/view?id=73217458&amp;trk" target="_blank" rel="external">linkedin</a>, <a href="https://plus.google.com/u/0/115535547770142859056/posts" target="_blank" rel="external">googleplus</a>, and I even hang around sometimes on <a href="https://www.facebook.com/juliocesar.villasante.9" target="_blank" rel="external">facebook</a>. </p>
 <p>Just drop me a line to get connected and if you have a job offer for me I’m always looking for new things to try out.</p>
 <p>Thank you.</p>
-<a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x6a;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#x65;&#x67;&#x6f;&#109;&#x65;&#x7a;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;">&#x6a;&#x76;&#105;&#108;&#108;&#97;&#x73;&#x61;&#x6e;&#116;&#x65;&#x67;&#x6f;&#109;&#x65;&#x7a;&#64;&#x67;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#109;</a>
+<a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#106;&#118;&#x69;&#108;&#x6c;&#x61;&#115;&#97;&#x6e;&#116;&#101;&#103;&#111;&#x6d;&#x65;&#x7a;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#106;&#118;&#x69;&#108;&#x6c;&#x61;&#115;&#97;&#x6e;&#116;&#101;&#103;&#111;&#x6d;&#x65;&#x7a;&#x40;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Hello World Again…</p>
